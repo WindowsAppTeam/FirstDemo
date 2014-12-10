@@ -102,5 +102,10 @@ namespace UKFCWSDemo
         }
 
         #endregion
+
+        private void SaveProfile_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(yourProfile));
+        }
     }
 }

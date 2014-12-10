@@ -20,9 +20,9 @@
     		<TextBlock Style="{StaticResource SubheaderTextBlockStyle}" TextWrapping="Wrap" Text="Your details"/>
     		<Image Height="466" Source="Assets/Logo.png" Margin="0,30,0,0" Stretch="Fill"/>
     		<Button Content="Change picture" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
-    		<Button Content="Edit profile" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
-    		<Button Content="Delete profile" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
-    	</StackPanel>
+    		<Button Content="Edit profile" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Button_Click"/>
+            <Button x:Name="EditProfileButton" Content="Delete profile" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="EditProfileButton_Click"/>
+        </StackPanel>
     	<StackPanel HorizontalAlignment="Left" Height="748" VerticalAlignment="Top" Width="448" Margin="471,10,0,0">
     		<ListView Height="537">
     			<ListViewHeaderItem Content="Name" RenderTransformOrigin="0.5,0.5">

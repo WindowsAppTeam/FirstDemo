@@ -55,6 +55,6 @@
         <TextBox x:Name="EmailValue" HorizontalAlignment="Left" Margin="53,488,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Global User Interface" Width="356" Height="49" FontSize="36"/>
         <TextBlock x:Name="Text_Facebook" HorizontalAlignment="Left" Margin="677,101,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Facebook" VerticalAlignment="Top" Height="49" Width="167" FontSize="36"/>
         <TextBox x:Name="NameValue_Copy" HorizontalAlignment="Left" Margin="677,155,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Global User Interface" Width="384" Height="49" FontSize="36"/>
-        <Button x:Name="SaveProfile" Content="Save" HorizontalAlignment="Left" Margin="674,316,0,0" Grid.Row="1" VerticalAlignment="Top" Height="55" Width="128" FontSize="24" FontFamily="Global User Interface"/>
+        <Button x:Name="SaveProfile" Content="Save" HorizontalAlignment="Left" Margin="674,316,0,0" Grid.Row="1" VerticalAlignment="Top" Height="55" Width="128" FontSize="24" FontFamily="Global User Interface" Click="SaveProfile_Click"/>
     </Grid>
 </Page>
